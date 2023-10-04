@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use OmniaDigital\CatalystReviewsPlugin\Commands\CatalystReviewsPluginCommand;
+use OmniaDigital\CatalystReviewsPlugin\Testing\TestsCatalystReviewsPlugin;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use OmniaDigital\CatalystReviewsPlugin\Commands\CatalystReviewsPluginCommand;
-use OmniaDigital\CatalystReviewsPlugin\Testing\TestsCatalystReviewsPlugin;
 
 class CatalystReviewsPluginServiceProvider extends PackageServiceProvider
 {
