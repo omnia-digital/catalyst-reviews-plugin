@@ -14,7 +14,9 @@ use Modules\Social\Traits\Postable;
 
 class Review extends Model
 {
-    use HasFactory, Postable, Likable;
+    use HasFactory;
+    use Likable;
+    use Postable;
 
     protected $guarded = [];
 

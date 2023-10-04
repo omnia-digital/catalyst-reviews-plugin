@@ -11,22 +11,28 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Livewire\Component;
 use Modules\Reviews\Models\Review;
-use OmniaDigital\OmniaLibrary\Livewire\WithModal;
 use OmniaDigital\CatalystCore\Facades\Translate;
+use OmniaDigital\OmniaLibrary\Livewire\WithModal;
 
 class CreateReviewModal extends Component implements HasForms
 {
-    use WithModal, InteractsWithForms;
+    use InteractsWithForms;
+    use WithModal;
 
     public $model;
 
-    public Review|null $review = null;
+    public ?Review $review = null;
 
     public $body;
+
     public $visibility;
+
     public $language_id;
+
     public $commentable;
+
     public $received_product_free;
+
     public $recommend;
 
     protected $listeners = ['openReviewModal'];
