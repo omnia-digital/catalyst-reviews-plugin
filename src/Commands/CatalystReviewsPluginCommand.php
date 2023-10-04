@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace OmniaDigital\CatalystReviewsPlugin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class CatalystReviewsPluginCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'catalyst-reviews-plugin';
 
     public $description = 'My command';
 
