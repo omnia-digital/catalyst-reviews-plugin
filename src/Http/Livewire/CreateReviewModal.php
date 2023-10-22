@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Reviews\Http\Livewire;
+namespace OmniaDigital\CatalystReviewsPlugin\Http\Livewire;
 
 use App\Models\Language;
 use Filament\Forms\Components\Checkbox;
@@ -10,7 +10,7 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Livewire\Component;
-use Modules\Reviews\Models\Review;
+use OmniaDigital\CatalystReviewsPlugin\Models\Review;
 use OmniaDigital\OmniaLibrary\Livewire\WithModal;
 use OmniaDigital\CatalystCore\Facades\Translate;
 

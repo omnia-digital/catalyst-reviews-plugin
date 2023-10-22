@@ -1,27 +1,22 @@
 <?php
 
-namespace Modules\Reviews\Models;
+namespace OmniaDigital\CatalystReviewsPlugin\Models;
 
-use App\Models\Language;
-use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Modules\Reviews\Database\factories\ReviewFactory;
-use Modules\Social\Traits\Likable;
-use Modules\Social\Traits\Postable;
+use OmniaDigital\CatalystReviewsPlugin\Database\factories\ReviewFactory;
 
 class Review extends Model
 {
-    use HasFactory, Postable, Likable;
+    use HasFactory;
 
     protected $guarded = [];
 
     protected $casts = [
         'received_product_free' => 'boolean',
         'recommend' => 'boolean',
-        'commentable' => 'boolean',
     ];
 
     protected static function newFactory()
@@ -29,14 +24,12 @@ class Review extends Model
         return ReviewFactory::new();
     }
 
-    public function user(): BelongsTo
+    public function user(): ?BelongsTo
     {
-        return $this->belongsTo(User::class);
-    }
-
-    public function language(): BelongsTo
-    {
-        return $this->belongsTo(Language::class);
+        if (!class_exists(App\Models\User::class)) {
+            return null;
+        }
+        return $this->belongsTo(App\Models\User::class);
     }
 
     public function reviewable(): MorphTo

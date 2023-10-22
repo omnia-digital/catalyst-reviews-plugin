@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Reviews\Database\Seeders;
+namespace OmniaDigital\CatalystReviewsPlugin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Modules\Reviews\Models\Review;
+use OmniaDigital\CatalystReviewsPlugin\Models\Review;
 use Modules\Social\Models\Post;
 
 class ReviewTableSeeder extends Seeder

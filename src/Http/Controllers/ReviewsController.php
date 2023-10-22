@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Reviews\Http\Controllers;
+namespace OmniaDigital\CatalystReviewsPlugin\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;

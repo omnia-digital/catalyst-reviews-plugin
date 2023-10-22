@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\Reviews\Database\factories;
+namespace OmniaDigital\CatalystReviewsPlugin\Database\factories;
 
 use App\Models\Team;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Modules\Reviews\Models\Review;
+use OmniaDigital\CatalystReviewsPlugin\Models\Review;
 
 class ReviewFactory extends Factory
 {

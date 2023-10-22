@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Reviews\Providers;
+namespace OmniaDigital\CatalystReviewsPlugin\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;

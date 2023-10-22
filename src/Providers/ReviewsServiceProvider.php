@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Reviews\Providers;
+namespace OmniaDigital\CatalystReviewsPlugin\Providers;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\Reviews\Policies;
+namespace OmniaDigital\CatalystReviewsPlugin\Policies;
 
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
-use Modules\Reviews\Models\Review;
+use OmniaDigital\CatalystReviewsPlugin\Models\Review;
 
 class ReviewPolicy
 {

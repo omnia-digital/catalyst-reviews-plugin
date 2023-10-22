@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Reviews\Traits;
+namespace OmniaDigital\CatalystReviewsPlugin\Traits;
 
 use App\Models\User;
-use Modules\Reviews\Models\Review;
+use OmniaDigital\CatalystReviewsPlugin\Models\Review;
 
 trait Reviewable
 {

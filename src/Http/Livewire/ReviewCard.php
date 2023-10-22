@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Reviews\Http\Livewire;
+namespace OmniaDigital\CatalystReviewsPlugin\Http\Livewire;
 
 use Livewire\Component;
-use Modules\Reviews\Models\Review;
+use OmniaDigital\CatalystReviewsPlugin\Models\Review;
 
 class ReviewCard extends Component
 {
