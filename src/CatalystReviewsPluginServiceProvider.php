@@ -103,8 +103,8 @@ class CatalystReviewsPluginServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('catalyst-reviews-plugin', __DIR__ . '/../resources/dist/components/catalyst-reviews-plugin.js'),
-//            Css::make('catalyst-reviews-plugin-styles', __DIR__ . '/../resources/dist/catalyst-reviews-plugin.css'),
-//            Js::make('catalyst-reviews-plugin-scripts', __DIR__ . '/../resources/dist/catalyst-reviews-plugin.js'),
+            //            Css::make('catalyst-reviews-plugin-styles', __DIR__ . '/../resources/dist/catalyst-reviews-plugin.css'),
+            //            Js::make('catalyst-reviews-plugin-scripts', __DIR__ . '/../resources/dist/catalyst-reviews-plugin.js'),
         ];
     }
 
