@@ -3,8 +3,8 @@
 namespace OmniaDigital\CatalystReviewsPlugin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use OmniaDigital\CatalystReviewsPlugin\Models\Review;
 use Modules\Social\Models\Post;
+use OmniaDigital\CatalystReviewsPlugin\Models\Review;
 
 class ReviewTableSeeder extends Seeder
 {

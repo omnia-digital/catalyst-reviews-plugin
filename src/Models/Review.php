@@ -28,9 +28,10 @@ class Review extends Model
 
     public function user(): ?BelongsTo
     {
-        if (!class_exists(App\Models\User::class)) {
+        if (! class_exists(App\Models\User::class)) {
             return null;
         }
+
         return $this->belongsTo(App\Models\User::class);
     }
 
