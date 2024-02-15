@@ -11,8 +11,8 @@ use OmniaDigital\CatalystReviewsPlugin\Database\factories\ReviewFactory;
 class Review extends Model
 {
     use HasFactory;
-//    use Likable;
-//    use Postable;
+    //    use Likable;
+    //    use Postable;
 
     protected $guarded = [];
 
